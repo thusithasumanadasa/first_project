@@ -1,0 +1,110 @@
+Theme : Nictitate (wordpress.org release)
+Version : 1.0.6
+Author : Kopatheme - http://kopatheme.com
+
+February 06 2014 - 1.0.6
+===========================================================
+- Updated: print content of front-page
+- Updated: default copyright text
+- Updated: localization files
+- Fixed: logo cannot be displayed on IE8
+- Changed: version number - style.css
+
+January 24 2014 - 1.0.5
+===========================================================
+- Added: sticky menu
+- Updated: localization files
+- Changed: version number - style.css
+
+January 11 2014 - 1.0.4
+===========================================================
+- Removed: custom background options in theme options
+- Removed: logo upload option in theme options
+- Removed: animated header scripts and sticky header
+- Updated: header.php and searchform.php: use esc_url(home_url()) instead of home_url()
+- Updated: use core custom background feature
+- Updated: use core custom header feature
+- Updated: localization files
+- Changed: version number - style.css
+
+January 10 2014 - 1.0.3
+===========================================================
+- Updated: wrap comment text in comment-content div
+ 	comments.php
+
+- Updated: condition for gallery post format 
+ 	content-gallery.php
+
+- Updated: clearing float for page template
+ 	content-page.php
+
+- Removed: social sharing links
+	content-single.php
+	library/includes/cpanel/theme-options/post.php
+	library/front.php
+
+- Updated: styles for table, unordered list, ordered list and definition list
+ 	css/extra.css
+
+- Updated: get_template_directory()
+	functions.php
+
+- Removed: ie js in header
+    header.php
+
+- Updated: copyright
+    js/retina.js
+    js/set-view-count.js
+
+- Removed: styleswitch.js
+
+- Updated: add image sizes
+
+- Removed: google tracking code options
+ 	library/includes/cpanel/theme-options/general.php
+ 	library/front.php
+
+- Updated: register custom post types widgets when tookit is activated
+
+- Updated: register sidebar via widgets_init hook
+ 	library/ini.php
+
+- Removed: icomoon stylesheet
+ 	library/kopa.php
+
+- Updated: use home_url instead of esc_url( home_url() )
+  	header.php
+  	searchform.php
+
+- Updated: version number
+ 	style.css
+
+- Updated: display site title if logo is empty
+
+- Updated: text logo styles
+
+- Updated: localization files
+
+- Updated: theme tags
+
+- Updated: 880x660 screenshot
+
+January 6 2014 - 1.0.2
+===========================================================
+Updated: theme uri
+Updated: combine custom post types and shortcodes to a toolkit plugin
+Updated: combine theme options, sidebar manager and layout manager into one page with 3 tabs
+Updated: copyright declaration
+Replaced: icomoon by fontawesome
+Removed: isotope jquery plugin
+Removed: update message in admin pages
+Removed: some defined url - functions.php
+Removed: jquery-1.8.3.min
+
+December 17 2013 - 1.0.1
+===========================================================
+Updated: built-in shortcodes plugin v1.0.1
+Updated: external and static page url options for services
+Updated: tgmpa class
+Fixed: option for switching between wide and box layout
+
